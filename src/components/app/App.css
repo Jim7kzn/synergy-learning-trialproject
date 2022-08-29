@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+th:not(:last-child), td:not(:last-child) {
+  border-right: 1px solid #e0e0e0;
+}
+th, td {
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.active {
+  background-color: greenyellow;
+}
